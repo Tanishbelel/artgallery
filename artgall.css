@@ -1,0 +1,454 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+.heros{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #14213d;
+}
+.heroimg{
+    background-image: url("hero1.webp");
+    height: 100vh;
+    width: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    margin-left: 400px;
+    
+}
+.boxes{
+    display:flex ;
+    justify-content: space-between;
+}
+.b1{
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 100px;
+    border: 2px solid transparent;
+}
+.b1 a{
+    text-decoration:none;
+    color: white;
+}
+.b:hover{
+    border: 2px solid white;
+}
+.b2{
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 100px;
+    border: 2px solid transparent;
+}
+.b3{
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 100px;
+    border: 2px solid transparent;
+}.b4{
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 100px;
+    border: 2px solid transparent;  
+}
+.b4 a{
+    text-decoration:none;
+    color: white;
+}
+.heroimg p{
+    margin-top: 260px;
+    margin-left: 1px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+.body{
+    background-color: #fca311;
+    width: 100%;
+}
+.body h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    width: 300px;
+    text-align: start;
+    margin-left: 70px;
+
+
+}
+.box h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: start;
+    margin-top: 10px
+}
+.box p{
+    color: #14213d;
+    padding-left:100px ;
+}
+.bodyimg1{
+    background-image: url("body1.jpg");
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-size: cover;
+    backdrop-filter: 20px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.boxbody{
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+    text-align: start;
+}
+.bodyimg2{
+    background-image: url("body2.webp");
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-size: cover;
+    backdrop-filter: 20px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.boxbody2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div4 {
+    font-size: 0.8rem ;
+    text-align: start;
+    margin-top: 90px;
+}
+.div4 h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.div4 p{
+    margin-top: 5px;
+    width: 300px;
+    color: #14213d;
+    padding-left:100px ;
+}
+.div5 {
+    font-size: 0.8rem ;
+    text-align: start;
+    margin-top: 90px;
+}
+.div5 h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.div5 p{
+    margin-top: 5px;
+    width: 300px;
+    color: #14213d;
+    padding-left:100px ;
+}
+.bodyimg3{
+    background-image: url("body3.webp ");
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-size: cover;
+    backdrop-filter: 20px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.gallery{
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.gi1{
+    background-image: url("gal1.jpg");
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-size: cover;
+
+}
+
+.gb1{
+    position: absolute;
+    z-index: 5;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    transform: translateY(100%);
+    text-align: center;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.gb1 h1{
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: start;
+}
+.lm{
+    text-align:end ;
+    margin-top: 65px;
+}
+.gb1 p{
+    margin-top: 5px;
+}
+.gi1:hover .gb1{
+   transform: translateY(0%);
+   background-color: rgba(200, 200 ,0, 0.705);
+   opacity: 100%;
+}
+.gi2{
+    background-image: url("gal2.jpg");
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-size: cover;
+
+}
+
+.gb2{
+    position: absolute;
+    z-index: 10;
+
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    transform: translateY(100%);
+}
+.gi2:hover .gb2{
+   transform: translateY(0%);
+   background-color: rgba(200, 200 ,0, 0.705);
+   opacity: 100%;
+}
+.gi3{
+    background-image: url("gal3.jpg");
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-size: cover;
+
+}
+
+.gb3{
+    position: absolute;
+    z-index: 10;
+
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    transform: translateY(100%);
+}
+.gi3:hover .gb3{
+   transform: translateY(0%);
+   background-color: rgba(200, 200 ,0, 0.705);
+   opacity: 100%;
+}
+.gallery2{
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.gi4{
+    background-image: url("gal4.jpg");
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-size: cover;
+
+}
+
+.gb4{
+    position: absolute;
+    z-index: 10;
+
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    transform: translateY(100%);
+}
+.gi4:hover .gb4{
+   transform: translateY(0%);
+   background-color: rgba(200, 200 ,0, 0.705);
+   opacity: 100%;
+}
+.gi5{
+    background-image: url("gal5.jpg");
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-size: cover;
+
+}
+
+.gb5{
+    position: absolute;
+    z-index: 10;
+
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    transform: translateY(100%);
+}
+.gi5:hover .gb5{
+   transform: translateY(0%);
+   background-color: rgba(200, 200 ,0, 0.705);
+   opacity: 100%;
+}
+.gi6{
+    background-image: url("gal6.jpg");
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-size: cover;
+
+}
+
+.gb6{
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+
+    transform: translateY(100%);
+}
+.gi6:hover .gb6{
+   transform: translateY(0%);
+   background-color: rgba(200, 200 ,0, 0.705);
+   opacity: 100%;
+}
+.buts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.buts button{
+    height: 50px;
+    width: 100px;
+    background-color: #14213d;
+    color: white;
+    border-radius: 10px;
+}
+.but1 button:hover{
+    background-color:cadetblue ;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px   ;
+}
+.f{
+    border: 2px solid black;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    border:1px solid rgba(255,255,255,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f09303;
+}
+.f li{
+    list-style-type: none;
+}
+.f button{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.f button:hover{
+    background-color: cadetblue;
+}
+.f i{
+    margin-right: 5px;
+    font-size: 0.8rem;
+}
+.prom{
+    width: 340px;
+    height: 300px;  
+}
+.prom p{
+    font-size: 0.8rem;
+    color: #14213d;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+.promb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+.sign button{
+    margin-left: 10px;
+}
+.sb1{
+    background-color: black;
+    color: white;
+    font-weight: 500 ;
+    width: 70px;
+    border-radius: 10px;
+    height: 30px;
+}
+.sb2{
+    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+.footer i{
+    margin-right: 20px;
+}
+.cr{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #14213d;
+    font-size: 0.8rem;
+}
+
